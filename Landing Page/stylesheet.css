@@ -1,0 +1,722 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 190, 190);
+}
+#box{
+    height: 60vh;
+    width: 40vw;
+    background-color: white;
+    border: 4px solid rgb(180, 178, 178);
+    border-radius: 24px;
+    display: flex;
+}
+#box_1{
+    height: 100%;
+    width: 42%;
+    border-radius: 20px 0px 0px 20px;
+}
+#img_container{
+    width: 100%;
+    height: 42%;
+    border-radius: 18px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    width: 56%;
+    height: 70%;    
+}
+#button_container{
+    height: 58%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 18px;
+}
+.buttons_cont{
+    height: 15%;
+    width: 70%;
+    border-radius: 18px;
+}
+.text{
+    width: 70%;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 34px;
+    margin-top: 6px;
+}
+.buttons{
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    background-color: #1760a6;
+    border: 3px solid #124d83;
+    color: white;
+    font-size: 18px;
+}
+#sign_in_container{
+    height: 60vh;
+    width: 23.2vw;
+    position: absolute;
+    background-color:chartreuse;
+    top: 20vh;
+    left: 46.8vw;
+    display: none;
+    border-radius: 0px 20px  20px 0px;
+}
+#sign_in_form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 96%;
+    width: 84%;
+    margin-top: 2%;
+}
+#sign_in_button:active #sign_in_container{
+    display: block;
+}
+.heading{
+    width: 50%;
+    padding-top: 60px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 40px;
+    color: black;
+}
+.extra{
+    width: 50%;
+    padding-top: 16px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+    color: rgb(49, 49, 49);
+    word-spacing: 0.1vw;
+    letter-spacing: 0.5px;
+
+}
+.input_container{
+    height: 4.3vh;
+    width:86%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0%;
+}
+#sign_in_username{
+    margin-top: 60px;
+    
+}
+.icon_container{
+    width: 15%;
+    height: 100%;
+}
+.input_bar{
+    height: 92%;
+    width: 85%;
+    border: none;
+    outline: 0px;
+    font-size: 15px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0%;
+}
+#profile_icon{
+    width: 90%;
+    color: black;
+    height: 75%;
+    margin-top: 12px;
+}
+#sign_in_password{
+    margin-top: 30px;
+}
+#sign_in_button_2{
+    height: 4.2vh;
+    width:86%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(179, 99, 99);
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-top: 10.3px;
+    box-sizing: border-box;
+}
+#forgot_pass{
+    font-size: 13px;
+    color: crimson;
+    margin-top: 40px;
+}
+#extra_2{
+    font-size: 13px;
+    color: rgb(95, 94, 94);
+    margin-top: 20px;
+}
+#extra_3{
+    color: rgb(252, 66, 221);
+}
+#sign_up_container{
+    height: 60vh;
+    width: 23.2vw;
+    position: absolute;
+    background-color:chartreuse;
+    top: 20vh;
+    left: 46.8vw;
+    display: none;
+    border-radius: 0px 20px  20px 0px;
+}
+#sign_up_form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 96%;
+    width: 84%;
+    margin-top: 2%;
+}
+#sign_up_button:active #sign_up_container{
+    display: block;
+}
+.heading_2{
+    width: 50%;
+    padding-top: 45px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 40px;
+    color: black;
+}
+.extra{
+    width: 50%;
+    padding-top: 16px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+    color: rgb(49, 49, 49);
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+.input_container{
+    height: 4.2vh;
+    width:86%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgb(99, 197, 0);
+}
+#sign_up_username{
+    margin-top: 50px;
+    
+}
+.icon_container{
+    width: 15%;
+    height: 100%;
+}
+.input_bar{
+    height: 96%;
+    width: 82%;
+    border: none;
+    outline: 0px;
+    font-size: 15px;
+    border-radius: 0px 10px 10px 0px;
+}
+#profile_icon{
+    width: 90%;
+    color: black;
+    height: 75%;
+    margin-top: 12px;
+}
+#sign_up_password{
+    margin-top: 20px;
+}
+#sign_up_email{
+    margin-top: 20px;
+}
+#sign_up_button_2{
+    height: 4.2vh;
+    width:86%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(179, 99, 99);
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-top: 10.3px;
+    box-sizing: border-box;
+}
+#forgot_pass{
+    font-size: 13px;
+    color: crimson;
+    margin-top: 40px;
+}
+#extra_2{
+    font-size: 13px;
+    color: rgb(95, 94, 94);
+    margin-top: 20px;
+}
+#extra_3{
+    color: rgb(252, 66, 221);
+}
+#extra_4{
+    color: rgb(252, 66, 221);
+}
+@media only screen and (max-width:1480px) {
+    #box{
+        height: 60vh;
+        width: 48vw;
+    }
+    #box_1{
+        height: 100%;
+        width: 42%;
+    }
+    #sign_in_container{
+        height: 60vh;
+        width: 27.2vw;
+        top: 20vh;
+        left: 46.8vw;
+    }
+    #sign_up_container{
+        height: 60vh;
+        width: 27.2vw;
+        top: 20vh;
+        left: 46.8vw;
+    }
+    .heading{
+        width: 100%;
+        padding-top: 50px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 35px;
+        color: black;
+    }
+    .heading_2{
+        width: 100%;
+        padding-top: 45px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 35px;
+        color: black;
+    }
+    .icon_container{
+        width: 18%;
+        height: 100%;
+    }
+    .input_bar{
+        height: 96%;
+        width: 79%;
+        border: none;
+        outline: 0px;
+        font-size: 15px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        margin-top: 6px;
+        margin-left: 0px;
+    }
+    .extra{
+        width: 100%;
+        padding-top: 16px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 12px;
+        color: rgb(49, 49, 49);
+        word-spacing: 0.1vw;
+        letter-spacing: 0.5px;
+    }
+    #sign_up_button_2{
+        height: 3.9vh;
+        width:70%;
+        margin-top: 40px;
+        font-size: 15px;
+        padding-top: 8.5px;
+        box-sizing: border-box;
+    }
+    #extra_2{
+        font-size: 11px;
+        color: rgb(95, 94, 94);
+        margin-top: 20px;
+    }
+    #sign_in_button_2{
+        height: 3.9vh;
+        width:70%;
+        margin-top: 40px;
+        font-size: 15px;
+        padding-top: 8.5px;
+        box-sizing: border-box;
+    }
+    .input_container{
+        height: 4.3vh;
+        width:94%;
+    }
+    .icon_container{
+        width: 18%;
+        height: 100%;
+    }
+    .input_bar{
+        height: 96%;
+        width: 79%;
+        border: none;
+        outline: 0px;
+        font-size: 12px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    #forgot_pass{
+        font-size: 11px;
+        color: crimson;
+        margin-top: 40px;
+    }
+    .buttons_cont{
+        height: 15%;
+        width: 65%;
+        border-radius: 18px;
+        padding: 0px;
+    }
+
+    .buttons{
+        height: 100%;
+        width: 100%;
+        font-size: 15px;
+        padding: 5px;
+    }
+    #img_container{
+        width: 100%;
+        height: 50%;
+        border-radius: 18px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #img{
+        width: 60%;
+        height: 60%;    
+    }
+    #sign_in{
+        margin-top: 4px;
+    }
+    #button_container{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 15%;
+        padding-bottom: 5%;
+        box-sizing: border-box;
+        border-radius: 0px 0px 0px 18px;
+    }
+}
+
+
+@media only screen and (max-width:1000px) {
+    #box{
+        height: 60vh;
+        width: 70vw;
+    }
+    #box_1{
+        height: 100%;
+        width: 42%;
+    }
+    #sign_in_container{
+        height: 60vh;
+        width: 30.2vw;
+        top: 20vh;
+        left: 46.8vw;
+    }
+    #sign_up_container{
+        height: 60vh;
+        width: 38.2vw;
+        top: 20vh;
+        left: 46.8vw;
+    }
+}
+@media only screen and (max-width:1200px) {
+    #box{
+        height: 60vh;
+        width: 56vw;
+    }
+    #box_1{
+        height: 100%;
+        width: 42%;
+    }
+    #sign_in_container{
+        height: 60vh;
+        width: 31.3vw;
+        top: 20vh;
+        left: 46.8vw;
+    }
+    #sign_up_container{
+        height: 60vh;
+        width: 31.3vw;
+        top: 20vh;
+        left: 46.8vw;
+    }
+}
+@media only screen and (max-width:800px) {
+    #box{
+        height: 60vh;
+        width: 70vw;
+    }
+    #box_1{
+        height: 100%;
+        width: 42%;
+    }
+    #sign_in_container{
+        height: 60vh;
+        width: 38.4vw;
+        top: 20vh;
+        left: 46.8vw;
+    }
+    #sign_up_container{
+        height: 60vh;
+        width: 38.4vw;
+        top: 20vh;
+        left: 46.8vw;
+    }
+}
+@media only screen and (max-width:650px) {
+    #box{
+        height: 90vh;
+        width: 60vw;
+        display: block;
+    }
+    #img_container{
+        width: 100%;
+        height: 30%;
+        border-radius: 18px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #box_1{
+        height: 80%;
+        width: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    #img{
+        width: 40%;
+        height: 90%;    
+    }
+    #button_container{
+        height: 14%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 0.2%;
+        padding-bottom: 1%;
+        box-sizing: border-box;
+    }
+    .buttons_cont{
+        height: 40%;
+        width: 70%;
+        border-radius: 18px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 18px;    
+        border-radius: 12px;
+    }
+    .buttons{
+        height: 100%;
+        width: 70%;
+        border-radius: 18px;
+        background-color: #1760a6;
+        border: 3px solid #124d83;
+        color: white;
+        font-size: 18px;
+        margin-left: 15%;
+        border-radius: 12px;
+    }
+    .text{
+        width: 70%;
+        text-align: center;
+        font-size: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+    }
+    #sign_in_container{
+        height: 57vh;
+        width: 60vw;
+        position: absolute;
+        background-color:chartreuse;
+        top: 38vh;
+        left: 20vw;
+        display: none;
+        border-radius: 0px 0px  20px 20px;
+
+    }
+    #sign_up_container{
+        height: 57vh;
+        width: 60vw;
+        position: absolute;
+        background-color:chartreuse;
+        top: 38vh;
+        left: 20vw;
+        display: none;
+        border-radius: 0px 0px  20px 20px;
+    }
+    .heading{
+        padding-top: 30px;
+    }
+    .extra{
+        padding-top: 10px;
+    }
+    #sign_in_username{
+        margin-top: 45px;
+    }
+    #forgot_pass{
+        margin-top: 50px;
+        font-size: 13px;
+    }
+    #extra_2{
+        font-size: 13px;
+    }
+    .heading_2{
+        padding-top: 20px;
+    }
+    #sign_up_username{
+        margin-top: 30px;
+    }
+    
+}
+@media only screen and (max-width:500px) {
+    #box{
+        height: 90vh;
+        width: 80vw;
+        display: block;
+    }
+    #sign_in_container{
+        height: 57vh;
+        width: 80vw;
+        position: absolute;
+        background-color:chartreuse;
+        top: 38vh;
+        left: 10vw;
+        display: none;
+        border-radius: 0px 0px  20px 20px;
+
+    }
+    #sign_up_container{
+        height: 57vh;
+        width: 80vw;
+        position: absolute;
+        background-color:chartreuse;
+        top: 38vh;
+        left: 10vw;
+        display: none;
+        border-radius: 0px 0px  20px 20px;
+    }
+}
+@media only screen and (max-width:500px) {
+    #box{
+        height: 90vh;
+        width: 96vw;
+        display: block;
+    }
+    #sign_in_container{
+        height: 57vh;
+        width: 96vw;
+        position: absolute;
+        background-color:chartreuse;
+        top: 38vh;
+        left: 2vw;
+        display: none;
+        border-radius: 0px 0px  20px 20px;
+
+    }
+    #sign_up_container{
+        height: 57vh;
+        width: 96vw;
+        position: absolute;
+        background-color:chartreuse;
+        top: 38vh;
+        left: 2vw;
+        display: none;
+        border-radius: 0px 0px  20px 20px;
+    }
+}
+@media only screen and (max-height:780px) {
+    #box{
+        height: 96vh;
+        width: 96vw;
+        display: block;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    #sign_in_container{
+        height: 61vh;
+        width: 96vw;
+        position: absolute;
+        background-color:chartreuse;
+        top: 38vh;
+        left: 2vw;
+        display: none;
+        border-radius: 0px 0px  20px 20px;
+
+    }
+    #sign_up_container{
+        height: 61vh;
+        width: 96vw;
+        position: absolute;
+        background-color:chartreuse;
+        top: 38vh;
+        left: 2vw;
+        display: none;
+        border-radius: 0px 0px  20px 20px;
+    }
+    #sign_up_username{
+        margin-top: 20px;
+    }
+    #sign_in_username{
+        margin-top: 20px;
+    }
+    #heading{
+        padding-top: 25px;
+        font-size: 30px;
+    }
+    #heading_2{
+        padding-top: 25px;
+        font-size: 30px;
+    }
+    .input_container{
+        margin-top: 16px;
+    }
+    .buttons{
+        font-size: 12px;
+    }
+}
